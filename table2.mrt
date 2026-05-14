@@ -1,0 +1,63 @@
+Title: The Impact of the New 59Fe Decay Rates on 60Fe and 26Al Nucleosynthesis in Massive Stars
+Authors: Tan B., Xin W., Jiang R., Zhao G., and Takahashi K.
+Table: Basic evolution properties of the stellar models
+================================================================================
+Byte-by-byte Description of file: table.dat
+--------------------------------------------------------------------------------
+ Bytes Format Units  Label     Explanations
+--------------------------------------------------------------------------------
+ 1- 2  A2      ---    59Fe_decay_rate Decay rate of 59Fe, DR=Default Rate (LMP,
+                                    2001); NR=New Rate (Gao et al., 2021)
+ 4- 5  I2     solMass M_ini           [14/80] Initial mass of the star
+ 7-12  F6.3   solMass M_fin           [12.89/38.05] Final mass of the star at
+                                    the end of the pre-SN simulation
+14-19  F6.3   solMass M_He            [4.19/35.75] Mass of the helium core at
+                                    the helium depletion
+21-26  F6.3   solMass M_CO            [2.48/31.78] Mass of the carbon-oxygen
+                                    core at helium depletion
+28-31  F4.2   solMass M_cut           [1.43/2.66] Mass cut before the supernova
+                                    explosion
+33-37  F5.2   solMass M_fb            Mass of fallback material after the
+                                    supernova explosion
+39-43  F5.2   solMass M_rem           [1.43/32.35] Mass of the compact remnant
+                                    left behind after the supernova explosion
+45-49  F5.2   solMass M_ej            [2.29/30.58] Mass of the total material
+                                    ejected after the supernova explosion
+51-55  F5.3    ---    X(12C)          [0.11/0.29] Mass fraction of carbon-12 of
+                                    the center of the star at helium depletion
+57-62  F6.3    Myr    tau_H           [3.09/12.86] Lifetime of the star during
+                                    the hydrogen burning phase
+64-68  F5.3    Myr    tau_He          [0.34/1.46] Lifetime of the star during
+                                    the helium burning phase
+70-75  F6.3    Myr    tau_total       [3.44/14.35] Total lifetime of the star
+                                    from the zero-age main sequence to the end
+                                    of the pre-SN simulation
+--------------------------------------------------------------------------------
+Notes:
+--------------------------------------------------------------------------------
+DR 14 13.290  4.199  2.489 1.46  0.00  1.46 11.83 0.287 12.856 1.454 14.340
+DR 15 12.910  4.663  2.888 1.57  0.00  1.57 11.34 0.257 11.700 1.364 13.088
+DR 16 13.433  5.037  3.217 1.78  0.00  1.78 11.66 0.253 10.736 1.237 11.994
+DR 18 14.367  5.847  3.909 1.49  0.00  1.49 12.87 0.247  9.303 1.034 10.354
+DR 20 17.316  6.223  4.238 1.48  0.50  1.98 15.33 0.204  8.152 1.054  9.220
+DR 25 19.789  8.423  6.231 1.58  0.52  2.10 17.69 0.214  6.430 0.724  7.164
+DR 30 22.098 10.412  8.058 2.25  0.72  2.97 19.13 0.189  5.586 0.512  6.105
+DR 35 23.310 12.551 10.003 1.97  2.97  4.94 18.37 0.190  4.882 0.529  5.417
+DR 40 25.745 14.705 11.964 2.07  0.46  2.53 23.21 0.182  4.454 0.481  4.940
+DR 50 33.245 19.011 15.891 1.72  0.95  2.66 30.58 0.175  3.895 0.415  4.314
+DR 60 24.136 24.181 20.350 2.66  0.00  2.65 21.49 0.171  3.535 0.373  3.912
+DR 70 32.927 30.608 26.945 2.19 22.80 24.99  7.94 0.122  3.284 0.359  3.646
+DR 80 34.649 34.980 31.404 2.06 30.29 32.35  2.30 0.116  3.097 0.341  3.441
+NR 14 13.290  4.198  2.493 1.43  0.00  1.43 11.87 0.285 12.856 1.455 14.341
+NR 15 12.895  4.663  2.895 1.64  0.00  1.64 11.26 0.254 11.700 1.370 13.094
+NR 16 13.407  5.053  3.224 1.62  0.00  1.62 11.79 0.248 10.736 1.239 11.996
+NR 18 14.425  5.830  3.890 1.50  0.00  1.50 12.93 0.250  9.303 1.033 10.352
+NR 20 17.351  6.471  4.475 1.54  0.00  1.54 15.81 0.236  8.148 0.941  9.103
+NR 25 19.608  8.435  6.241 1.63  0.00  1.63 17.98 0.216  6.430 0.723  7.163
+NR 30 22.645 10.354  7.962 1.86  0.79  2.65 20.00 0.197  5.491 0.605  6.104
+NR 35 24.206 12.458  9.871 2.50  2.47  4.97 19.24 0.194  4.967 0.445  5.418
+NR 40 24.972 14.783 12.056 1.68  0.58  2.26 22.71 0.177  4.454 0.482  4.941
+NR 50 30.904 19.547 16.448 2.53 10.45 12.98 17.93 0.164  3.893 0.418  4.315
+NR 60 31.621 25.045 21.666 2.05 18.88 20.93 10.69 0.140  3.535 0.380  3.919
+NR 70 32.506 30.580 27.011 1.75 20.92 22.66  9.84 0.125  3.284 0.357  3.644
+NR 80 38.048 35.742 31.776 2.08 27.28 29.36  8.68 0.113  3.097 0.341  3.441
